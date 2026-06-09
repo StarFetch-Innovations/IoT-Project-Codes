@@ -1,7 +1,7 @@
 #include <AFMotor.h>
 #include <SoftwareSerial.h>
 
-SoftwareSerial btserial(10, 11); // RX, TX
+SoftwareSerial btserial(10, 9); // RX, TX
 
 // Define motors connected to M1 and M2 (or whichever ports you’re using)
 AF_DCMotor motor1(1);  // Motor 1 on M1
